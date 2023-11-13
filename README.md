@@ -5,6 +5,10 @@ Deep learning in the field of image processing has shown exceptional results. Th
 
 TensorFlow library is used for the deep learning. In this project, we will be using various CNN models such as Xception, VGG16 and resnet-50 Convolutional Neural Network (CNN). This will help us in concluding the best model for our use case.
 
+![Screenshot 2023-08-13 162324](https://github.com/harpreetkaur6119/histopathologic-cancer-detection-backend/assets/64327716/80010ab5-9e9a-4f4c-97af-519ab121823b)
+
+
+
 # Install the necessary libraries
 pip install requirements.txt
 
@@ -16,5 +20,3 @@ docker build -t pathology_backend:1.0 .
 
 # To Run Docker Image
 docker run -d --name backend --restart on-failure -p 5000:5000 pathology_backend:1.0
-
-![Screenshot 2023-08-13 162324](https://github.com/harpreetkaur6119/histopathologic-cancer-detection-backend/assets/64327716/60f75bc9-eca7-47ee-b884-c7dfbdc18d18)
